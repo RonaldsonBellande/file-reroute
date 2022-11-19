@@ -21,7 +21,7 @@ Summary: A package for easier interaction with Terminal and IDE
 Home-page: github.com/RonaldsonBellande/file-reroute
 Author: RonaldsonBellande
 Author-email: ronaldsonbellande@gmail.com
-License: MIT License
+License: GNU General Public License v3.0
 Requires: None
 Required-by:
 ```
