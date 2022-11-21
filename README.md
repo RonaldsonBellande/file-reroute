@@ -11,8 +11,11 @@
 
 ### 3 ways to install ⬇️ install locally
 - clone this repo
-- `$ pip install .`
+- `$ pip install file-retoute`
 - `$ pip show -f file_reroute`
+
+### :octocat: install from GitHub.com
+- `pip install git+https://github.com/RonaldsonBellande/file-reroute`
 
 ```
 Name: file_reroute
@@ -29,10 +32,6 @@ Required-by:
 ### 👩‍🔧 testing
 - `$ pip install .[dev]`
 - `$ python -m pytest --cov`
-
-### :octocat: install from GitHub.com
-- `pip install git+https://github.com/RonaldsonBellande/file-reroute`
-
 
 ### ❓ src-layout vs. flat-layout
 - see https://setuptools.pypa.io/en/stable/userguide/package_discovery.html
