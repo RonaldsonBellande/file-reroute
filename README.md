@@ -17,6 +17,14 @@
 ### :octocat: install from GitHub.com
 - `pip install git+https://github.com/RonaldsonBellande/file-reroute`
 
+### Usage 
+```
+from file_reroute.reroute import reroute
+reroute(directory)
+```
+- directory= "directory you want to reroute to"
+
+
 ```
 Name: file_reroute
 Version: 0.0.1
@@ -28,7 +36,6 @@ License: GNU General Public License v3.0
 Requires: None
 Required-by:
 ```
-
 ### 👩‍🔧 testing
 - `$ pip install .[dev]`
 - `$ python -m pytest --cov`
