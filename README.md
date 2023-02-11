@@ -20,9 +20,10 @@
 ### Usage 
 ```
 from file_reroute.reroute import reroute
-reroute(directory)
+reroute(["directory1", "directory2"])
 ```
 - directory= "directory you want to reroute to"
+- can be more then one directory as if one does not exist it will do the other directory and tell you that it does not exist
 
 
 ```
@@ -45,4 +46,4 @@ Required-by:
 
 ### 📦 publish to PyPI
 - use [pypa/build](https://github.com/pypa/build), a simple PEP 517 frontend and [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish)
-  - https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/
+- https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/
