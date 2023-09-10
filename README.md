@@ -9,6 +9,9 @@
 ### ✔️ confirmed versions
 - `Works of all platforms(Windows, Linux, Mac OS), all version of python (python2 and python3), all versions of IDE, all different kind of IDE's
 
+## Website
+- https://pypi.org/project/file-reroute/
+
 ### 3 ways to install ⬇️ install locally
 - clone this repo
 - `$ pip install file-retoute`
